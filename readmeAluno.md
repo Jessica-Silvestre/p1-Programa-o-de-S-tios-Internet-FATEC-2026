@@ -25,7 +25,7 @@ Descreva o que o seu projeto faz, qual API foi utilizada e quais funcionalidades
 ---
 
 
-## 📢 Post no LinkedIn
+## 📢 Publicação no LinkedIn
 
 👉 [COLE AQUI O LINK DO POST NO LINKEDIN]
 
