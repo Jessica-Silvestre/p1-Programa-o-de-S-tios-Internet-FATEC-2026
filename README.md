@@ -17,7 +17,7 @@ CSS
 JavaScript (Vanilla JS)
 🔗 Acesse o Projeto
 💻 GitHub: (https://github.com/Jessica-Silvestre)
-🌐 GitHub Pages: [COLE AQUI O LINK]
+🌐 GitHub Pages: (https://jessica-silvestre.github.io/p1-Programa-o-de-S-tios-Internet-FATEC-2026/)
 
 📚 Sobre o Projeto: 
     API de receitas 
