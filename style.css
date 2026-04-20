@@ -1,4 +1,5 @@
-body { font-family: 'Arial', sans-serif; background: #f9e2e2; margin: 0; padding: 10px; }
+body { font-family: 'Arial', sans-serif; background: #f9e2e2; margin: 0; padding: 5px; }
+
 header { text-align: center; padding: 10px 0; }
 
 .conteudo-header {
@@ -7,8 +8,10 @@ header { text-align: center; padding: 10px 0; }
   text-align: center;
 }
 
-.busca-container { display: flex; justify-content: center; gap: 10px; }
-input { padding: 12px; width: 300px; border: 2px solid #ddd; border-radius: 25px; outline: none; }
+.busca-container { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+
+input { padding: 12px; width: 100%; max-width: 300px; border: 2px solid #ddd; border-radius: 25px; outline: none; }
+
 button { padding: 12px 25px; background: #ff6b6b; color: white; border: none; border-radius: 25px; cursor: pointer; font-weight: bold; }
 
 .galeria-grid { 
@@ -29,8 +32,11 @@ button { padding: 12px 25px; background: #ff6b6b; color: white; border: none; bo
 }
 
 .imagem-prato { width: 100%; height: 180px; object-fit: cover; }
+
 .titulo { padding: 15px 15px 5px; margin: 0; color: #333; font-size: 1.2rem; }
+
 .descricao { padding: 0 15px; color: #777; font-size: 0.9rem; flex-grow: 1; }
+
 .link-repo { display: block; 
     margin: 15px; 
     padding: 10px; 
@@ -67,13 +73,16 @@ h2 {font-family: 'Playfair Display', serif;}
   overflow: hidden;     
   border: 20px solid rgba(255,255,255,0.9); 
   box-sizing: border-box;
+  border-width: 10px;
 }
 
 /* imagem translúcida */
 .hero-img {
   display: block;
   width: 100%;
-  height: 300px;
+  margin: 10px auto;
+  height: 40vh;
+  min-height: 200px;
   object-fit: cover;
   opacity: 0.8;
   transition: opacity 50ms;
@@ -91,6 +100,7 @@ h2 {font-family: 'Playfair Display', serif;}
   padding: 20px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  padding: 10px;
 }
 
 .overlay h1,
@@ -99,6 +109,7 @@ h2 {font-family: 'Playfair Display', serif;}
   color: #fff;
   text-shadow: 0 2px 6px rgba(0,0,0,0.6);
   z-index: 3;
+  font-size: clamp(28px, 6vw, 70px);
 }
 
-.overlay h2 { font-size: 1.2rem; font-weight: 600; opacity: 0.95;}
+.overlay h2 { font-size: clamp(16px, 4vw, 50px); font-weight: 600; opacity: 0.95;}
